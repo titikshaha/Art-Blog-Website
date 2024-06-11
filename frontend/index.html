@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>artryst</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="images/T3.png"> 
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div id="splash-screen">
+    <div class="splash-content">
+      <div class="logo-container">
+        <img src="images/T2.png">
+      </div>
+      <div class="text-container">
+        <h1>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; every stroke tells a story</h1>
+      </div> 
+    </div>
+  </div>
+
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="images/T2.png" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="nav-link" id="home-link">Home</a></li>
+          <li><a href="#artworks" class="nav-link" id="artworks-link">Artworks</a></li>
+          <li><a href="#blog" class="nav-link" id="blog-link">Blog</a></li>
+          <li><a href="#aboutme" class="nav-link" id="aboutme-link">About Me</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search">
+        <button type="submit">Search</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="carousel-slide">
+          <div class="carousel-slide slide1"></div>
+          <div class="carousel-caption">
+            <h1 >A     R     T</h1>
+             
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="carousel-slide slide2"></div>
+      <div class="carousel-caption">
+            <h1 >art is more than paintings</h1>
+            
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="carousel-slide slide3"></div>
+          <div class="carousel-caption">
+            <h1 >art is anything, everything</h1>
+            
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="carousel-slide slide4"></div>
+          <div class="carousel-caption">
+            <h1 >art is real and imaginary all the same</h1>
+           
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="carousel-slide slide5"></div>
+          <div class="carousel-caption">
+            <h1 style="align-items: center;">Explore My Kind of Art</h1>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="para">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis repudiandae reprehenderit repellat nisi obcaecati asper tempore, accusantium sequi molestiae ea sapiente quaerat reiciendis mollitia ex? Excepturi blanditiis voluptatem ipsa quia.<br>
+    <hr style="size: 3rem; margin-top: 0.2rem;"></div>
+    
+  <div class ="art-images">
+    <div class="image-grid">
+      <div class="grid-item" data-image="images/artwork1.jpg" data-title="Lotus" data-description="Lorem ">
+        <img src="images/artwork1.jpg" alt="Artwork 1">
+        <div class="caption">Lotus</div>
+      </div>
+      <div class="grid-item">
+        <img src="images/artwork2.jpg" alt="Artwork 2">
+        <div class="caption">Artwork Title 2</div>
+         </div>
+      <div class="grid-item">
+        <img src="images/artwork3.jpg" alt="Artwork 3">
+        <div class="caption">Artwork Title 3</div>
+        </div>
+      <div class="grid-item">
+        <img src="images/artwork4.jpg" alt="Artwork 4">
+        <div class="caption">Artwork Title 4</div>
+       </div> <br>
+      </div>
+    </div>
+      <div class="grid-item">
+        <img src="images/writeup1.jpg" alt="Write-Up 1">
+        <div class="caption">Write-Up Title 1</div>
+          </div>
+      <div class="grid-item">
+        <img src="images/writeup2.jpg" alt="Write-Up 2">
+        <div class="caption">Write-Up Title 2</div>
+         </div>
+      <div class="grid-item">
+        <img src="images/writeup3.jpg" alt="Write-Up 3">
+        <div class="caption">Write-Up Title 3</div>
+        </div>
+      <div class="grid-item">
+        <img src="images/writeup4.jpg" alt="Write-Up" 4">
+        <div class="caption">Write-Up Title 4</div>
+       </div>
+    <div class="overlay-text">featured posts</div>
+
+   
+<div id="image-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-left">
+      <img id="modal-image" src="">
+    </div>
+    <div class="modal-right">
+      <div class="modal-text-container">
+      <h2 id="modal-title"> </h2>
+      <p id="modal-description"> </p>
+      <div class="box-1">
+        <div class="btn btn-one" onclick="location.href='#artworks'">
+          <span> Explore More</span>
+        </div>
+      </div>
+      </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="artworks-container">
+    <h1> artworks</h1>
+    <section id="portraits">
+      <h2>portraits</h2>
+      <div class="artwork-grid">
+        <div class="artwork-item" data-image="images/artwork/portrait1.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/portrait1.jpg" alt="Portrait 1">
+          <h3>Portrait 1</h3>
+          
+        </div>
+        <div class="artwork-item">
+          <img src="images/artwork/portrait2.jpg" alt="Portrait 2">
+          <h3>Portrait 2</h3>
+         
+        </div>
+        <div class="artwork-item">
+          <img src="images/artwork/portrait3.jpg" alt="Portrait 2">
+          <h3>Portrait 3</h3>
+          
+        </div>
+        <div class="artwork-item">
+          <img src="images/artwork/portrait4.jpg" alt="Portrait 2">
+          <h3>Portrait 4</h3>
+          
+        </div>
+        <div class="artwork-item">
+          <img src="images/artwork/portrait5.jpg" alt="Portrait 2">
+          <h3>Portrait 5</h3>
+          
+        </div>
+        <div class="artwork-item">
+          <img src="images/artwork/portrait6.jpg" alt="Portrait 2">
+          <h3>Portrait 6</h3>
+         
+        </div>
+        <div class="artwork-item">
+          <img src="images/artwork/portrait7.jpg" alt="Portrait 2">
+          <h3>Portrait 7</h3>
+          
+        </div>
+        <div class="artwork-item">
+          <img src="images/artwork/portrait8.jpg" alt="Portrait 2">
+          <h3>Portrait 8</h3>
+        
+        </div>
+        
+        
+        
+        <!-- Add more portrait items as needed -->
+      </div>
+    </section>
+    <section id="sketches">
+      <h2>Sketches</h2>
+      <div class="artwork-grid">
+        <div class="artwork-item" data-image="images/artwork/sketch1.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch1.jpg" alt="sketch1 1">
+          <h3>Sketch 1</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch2.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch2.jpg" alt="sketch 2">
+          <h3>Sketch 2</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch3.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch3.jpg" alt="sketch3">
+          <h3>Sketch 3</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch4.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch4.jpg" alt="sketch 4">
+          <h3>Sketch 4</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch5.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch5.jpg" alt="sketch5">
+          <h3>Sketch 5</h3>
+        </div>
+                <div class="artwork-item" data-image="images/artwork/sketch6.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch6.jpg" alt="sketch 6">
+          <h3>Sketch 6</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch7.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch7.jpg" alt="sketch 7">
+          <h3>Sketch 7</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch8.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch8.jpg" alt="sketch 8">
+          <h3>Sketch 8</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch9.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch9.jpg" alt="sketch9">
+          <h3>Sketch 9</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch19.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch10.jpg" alt="sketch10">
+          <h3>Sketch 10</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch11.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch11.jpg" alt="sketch11">
+          <h3>Sketch 11</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch12.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch1.jpg" alt="sketch12">
+          <h3>Sketch 12</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch13.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch13.jpg" alt="sketch13">
+          <h3>Sketch 13</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch14.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch14.jpg" alt="sketch14">
+          <h3>Sketch 14</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch15.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch15.jpg" alt="sketch15">
+          <h3>Sketch 15</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch16.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch16.jpg" alt="sketch16">
+          <h3>Sketch 16</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch17.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch17.jpg" alt="sketch17">
+          <h3>Sketch 17</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch18.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch18.jpg" alt="sketch18">
+          <h3>Sketch 18</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch19.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch19.jpg" alt="sketch19">
+          <h3>Sketch 19</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/sketch20.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/sketch20.jpg" alt="sketch20">
+          <h3>Sketch 20</h3>
+        </div>
+        
+        <!-- Add more sketch items as needed -->
+      </div>
+    </section>
+    <section id="everything">
+      <h2>everything in between</h2>
+      <div class="artwork-grid">
+        <div class="artwork-item" data-image="images/artwork/everything1.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/everything1.jpg" alt="everything1">
+          <h3>Everything 1</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/everything2.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/everything2.jpg" alt="everything2">
+          <h3>Everything 2</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/everything3.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/everything3.jpg" alt="everything3">
+          <h3>Everything 3</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/everything4.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/everything4.jpg" alt="everything4">
+          <h3>Everything 4</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/everything5.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/everything5.jpg" alt="everything5">
+          <h3>Everything 5</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/everything6.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/everything6.jpg" alt="everything6">
+          <h3>Everything 6</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/everything7.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/everything7.jpg" alt="everything7">
+          <h3>Everything 7</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/everything8.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/everything8.jpg" alt="everything8">
+          <h3>Everything 8</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/everything8.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/everything9.jpg" alt="everything9">
+          <h3>Everything 9</h3>
+        </div>
+        
+        <!-- Add more modern items as needed -->
+      </div>
+    </section>
+    <section id="scenic-paintings">
+      <h2>scenic paintings</h2>
+      <div class="artwork-grid">
+        <div class="artwork-item" data-image="images/artwork/scenic1.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/scenic1.jpg" alt="scenic1">
+          <h3>Scenic 1</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/scenic2.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/scenic2.jpg" alt="scenic2">
+          <h3>Scenic 2</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/scenic3.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/scenic3.jpg" alt="scenic3">
+          <h3>Scenic 3</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/scenic4.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/scenic1.jpg" alt="scenic4">
+          <h3>Scenic 4</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/scenic5.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/scenic5.jpg" alt="scenic5">
+          <h3>Scenic 5</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/scenic6.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/scenic6.jpg" alt="scenic6">
+          <h3>Scenic 6</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/scenic7.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/scenic7.jpg" alt="scenic7">
+          <h3>Scenic 7</h3>
+        </div>
+        <div class="artwork-item" data-image="images/artwork/scenic8.jpg" data-title="title" data-description="Lorem ">
+          <img src="images/artwork/scenic8.jpg" alt="scenic8">
+          <h3>Scenic 8</h3>
+        </div>
+        <!-- Add more scenic painting items as needed -->
+      </div>
+    </section>
+    
+
+     
+<div id="image-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-left">
+      <img id="modal-image" src="">
+    </div>
+    <div class="modal-right">
+      <div class="modal-text-container">
+      <h2 id="modal-title"> </h2>
+      <p id="modal-description"> </p>
+      
+      </div>
+  </div>
+  </div>
+</div>
+
+  </main>
+</main>
+
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="images/T2trans.png" alt="Logo">
+    </div>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/i.titili/" target="_blank" aria-label="Instagram">
+        <img src="images/insta.png" alt="Instagram">
+      </a>
+      <a href="https://x.com/titiksha_yadav5" target="_blank" aria-label="Twitter">
+        <img src="images/X.png" alt="Twitter">
+      </a>
+    </div>
+    <div class="footer-reviews">
+      <h3>Leave a Review </h3>
+      <form id="review-form">
+        <textarea id="review-text"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p style="font-size: 1.5rem;">&copy; 2024 artryst. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
